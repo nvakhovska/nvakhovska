@@ -60,93 +60,55 @@ const workExperience = [
 
 const skills = [
   {
-    name: "HTML5",
-    logo: "/images/skills/html5.svg",
+    category: "Full-Stack Development",
+    technologies: [
+      { name: "React.js", logo: "/images/skills/react.svg" },
+      { name: "Next.js", logo: "/images/skills/nextjs.png" },
+      { name: "Node.js", logo: "/images/skills/node.svg" },
+      { name: "TypeScript", logo: "/images/skills/typescript.png" },
+      { name: "Express.js", logo: "/images/skills/express.png" },
+    ],
   },
   {
-    name: "CSS3",
-    logo: "/images/skills/css3.svg",
+    category: "Backend Development & API Design",
+    technologies: [
+      { name: "Node.js", logo: "/images/skills/node.svg" },
+      { name: ".NET", logo: "/images/skills/c-sharp.png" },
+      { name: "Python (Flask/FastAPI)", logo: "/images/skills/python.png" },
+      { name: "RESTful APIs", logo: "/images/skills/api.png" },
+      { name: "GraphQL", logo: "/images/skills/graphql.png" },
+      { name: "WebSockets", logo: "/images/skills/websockets.png" },
+    ],
   },
   {
-    name: "JavaScript",
-    logo: "/images/skills/js.svg",
+    category: "Frontend Development",
+    technologies: [
+      { name: "React.js", logo: "/images/skills/react.svg" },
+      { name: "TypeScript", logo: "/images/skills/typescript.png" },
+      { name: "JavaScript ES6+", logo: "/images/skills/js.svg" },
+      { name: "UI/UX", logo: "/images/skills/uiux.png" },
+    ],
   },
   {
-    name: "TypeScript",
-    logo: "/images/skills/typescript.png",
+    category: "Cloud & DevOps (Azure & AWS)",
+    technologies: [
+      { name: "Azure App Services", logo: "/images/skills/azure.png" },
+      { name: "AWS Lambda", logo: "/images/skills/aws.svg" },
+      { name: "Docker", logo: "/images/skills/docker.png" },
+      { name: "Kubernetes", logo: "/images/skills/kubernetes.png" },
+      { name: "CI/CD", logo: "/images/skills/cicd.png" },
+    ],
   },
   {
-    name: "React.js",
-    logo: "/images/skills/react.svg",
-  },
-  {
-    name: "Next.js",
-    logo: "/images/skills/nextjs.png",
-  },
-  {
-    name: "Redux",
-    logo: "/images/skills/redux.svg",
-  },
-  {
-    name: "Node.js",
-    logo: "/images/skills/node.svg",
-  },
-  {
-    name: "Express.js",
-    logo: "/images/skills/express.png",
-  },
-  {
-    name: "PostgreSQL",
-    logo: "/images/skills/postgresql.svg",
-  },
-  {
-    name: "MongoDB",
-    logo: "/images/skills/mongodb.png",
-  },
-  {
-    name: "Redis",
-    logo: "/images/skills/redis.png",
-  },
-  {
-    name: "GraphQL",
-    logo: "/images/skills/graphql.png",
-  },
-  {
-    name: "Docker",
-    logo: "/images/skills/docker.png",
-  },
-  {
-    name: "Kubernetes",
-    logo: "/images/skills/kubernetes.png",
-  },
-  {
-    name: "CI/CD (GitHub Actions, Azure DevOps)",
-    logo: "/images/skills/cicd.png",
-  },
-  {
-    name: "Git",
-    logo: "/images/skills/git.svg",
-  },
-
-  {
-    name: "Jest",
-    logo: "/images/skills/jest.svg",
-  },
-  {
-    name: "Atlassian Products (Jira, Confluence)",
-    logo: "/images/skills/atlassian.svg",
-  },
-  {
-    name: "Azure",
-    logo: "/images/skills/azure.png",
-  },
-  {
-    name: "AWS",
-    logo: "/images/skills/aws.svg",
-  },
-  {
-    name: "Python",
-    logo: "/images/skills/python.png",
+    category: "Database & System Architecture",
+    technologies: [
+      { name: "PostgreSQL", logo: "/images/skills/postgresql.svg" },
+      { name: "MongoDB", logo: "/images/skills/mongodb.png" },
+      { name: "MySQL", logo: "/images/skills/sql.png" },
+      { name: "Redis", logo: "/images/skills/redis.png" },
+      { name: "API Security", logo: "/images/skills/security.png" },
+      { name: "Caching", logo: "/images/skills/caching.png" },
+    ],
   },
 ];
 
