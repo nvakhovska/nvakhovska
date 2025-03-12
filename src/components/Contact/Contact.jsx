@@ -11,14 +11,21 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_4t5y6hv", "template_skmb7o9", form.current, "WRdR97UjnnZ-hSL8h").then(
-      (result) => {
-        toast.success("Email has been sent! Thank you!");
-      },
-      (error) => {
-        toast.error("Unfortunately there was an error", error.text);
-      }
-    );
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        form.current,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          toast.success("Email has been sent! Thank you!");
+        },
+        (error) => {
+          toast.error("Unfortunately there was an error", error.text);
+        }
+      );
 
     e.target.reset();
   };
