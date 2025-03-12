@@ -1,6 +1,6 @@
 const header = {
-  homepage: "https://www.haylzrandom.co.uk",
-  logo: "/images/logo/haylzpic.png",
+  homepage: "https://nvakhovska.github.io/nvakhovska",
+  logo: "/images/website-logo-transparent-removebg-preview.png",
 };
 
 const about = {
