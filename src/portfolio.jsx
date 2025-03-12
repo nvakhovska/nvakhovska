@@ -42,7 +42,7 @@ const workExperience = [
       "During my career break, I actively expanded my expertise in Full-Stack Development, focusing on modern web technologies, cloud computing, and DevOps practices.",
     description2:
       "I built real-world projects to apply my knowledge in React.js, Next.js, Node.js, API development, and cloud deployments (Azure & AWS). I also enhanced my skills in CI/CD, Docker, and backend security best practices.",
-    projectLink: "https://github.com/nvakhovska"
+    projectLink: "https://github.com/nvakhovska",
     logo: "/images/experience/self-learning.png",
     logoAlt: "Self-Learning Logo",
   },
