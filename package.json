@@ -20,6 +20,7 @@
     "react-icons": "^4.6.0",
     "react-toastify": "^9.0.8",
     "uuid": "^9.0.0",
+    "vercel": "^41.4.0",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
