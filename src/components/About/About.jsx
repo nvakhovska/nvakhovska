@@ -79,7 +79,7 @@ const About = () => {
       </div>
       <div className="about-btn-container center">
         {cvFile && (
-          <a href={import.meta.env.BASE_URL + `/${cvFile}`} target="_blank" rel="noreferrer">
+          <a href={"https://nvakhovska.vercel.app" + `/${cvFile}`} target="_blank" rel="noreferrer">
             <button type="button" className="cv__btn">
               <FontAwesomeIcon className="download_icon" icon={faFloppyDisk} /> Download CV
             </button>

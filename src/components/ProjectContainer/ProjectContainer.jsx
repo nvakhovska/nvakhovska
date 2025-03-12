@@ -10,7 +10,7 @@ const ProjectContainer = ({ project }) => {
   return (
     <div className="project">
       <img
-        src={import.meta.env.BASE_URL + project.image}
+        src={"https://nvakhovska.vercel.app/" + project.image}
         alt={`Screenshot of ${project.name}`}
         className="project__image"
       />

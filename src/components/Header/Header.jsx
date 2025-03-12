@@ -13,7 +13,7 @@ const Header = () => {
       <h3>
         {homepage && (
           <a href={homepage} className="link">
-            <img src={import.meta.env.BASE_URL + logo} alt="Logo" className="logo-img" />
+            <img src={"https://nvakhovska.vercel.app/" + logo} alt="Logo" className="logo-img" />
           </a>
         )}
       </h3>

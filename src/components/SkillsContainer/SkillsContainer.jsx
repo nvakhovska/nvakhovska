@@ -4,7 +4,7 @@ const SkillsContainer = ({ skill }) => {
   return (
     <li className="skills__list-item">
       <img
-        src={`${import.meta.env.BASE_URL || ""}${skill.logo}`}
+        src={`https://nvakhovska.vercel.app/${skill.logo}`}
         alt={skill.name}
         className="skills__item-img"
       />
