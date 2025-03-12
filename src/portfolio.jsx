@@ -43,7 +43,6 @@ const workExperience = [
     description2:
       "I built real-world projects to apply my knowledge in React.js, Next.js, Node.js, API development, and cloud deployments (Azure & AWS). I also enhanced my skills in CI/CD, Docker, and backend security best practices.",
     projectLink: "https://github.com/nvakhovska",
-    logo: "/images/experience/self-learning.png",
     logoAlt: "Self-Learning Logo",
   },
   {
@@ -53,7 +52,6 @@ const workExperience = [
     description2:
       "Key contributions include designing scalable RESTful APIs, implementing CI/CD pipelines, optimizing database performance, and leading the transition of projects to new development teams. Technologies used: .NET, Node.js, React.js, PostgreSQL, Azure, AWS, Docker, and Kubernetes.",
     companyLink: "https://www.trinetix.com/",
-    logo: "/images/experience/trinetix.jpg",
     logoAlt: "Trinetix Logo",
   },
 ];
@@ -62,10 +60,10 @@ const skills = [
   {
     category: "Full-Stack Development",
     technologies: [
+      { name: "TypeScript", logo: "/images/skills/typescript.png" },
+      { name: "Node.js", logo: "/images/skills/node.svg" },
       { name: "React.js", logo: "/images/skills/react.svg" },
       { name: "Next.js", logo: "/images/skills/nextjs.png" },
-      { name: "Node.js", logo: "/images/skills/node.svg" },
-      { name: "TypeScript", logo: "/images/skills/typescript.png" },
       { name: "Express.js", logo: "/images/skills/express.png" },
     ],
   },
@@ -74,7 +72,7 @@ const skills = [
     technologies: [
       { name: "Node.js", logo: "/images/skills/node.svg" },
       { name: ".NET", logo: "/images/skills/c-sharp.png" },
-      { name: "Python (Flask/FastAPI)", logo: "/images/skills/python.png" },
+      { name: "Python", logo: "/images/skills/python.png" },
       { name: "RESTful APIs", logo: "/images/skills/api.png" },
       { name: "GraphQL", logo: "/images/skills/graphql.png" },
       { name: "WebSockets", logo: "/images/skills/websockets.png" },
@@ -83,17 +81,17 @@ const skills = [
   {
     category: "Frontend Development",
     technologies: [
-      { name: "React.js", logo: "/images/skills/react.svg" },
-      { name: "TypeScript", logo: "/images/skills/typescript.png" },
       { name: "JavaScript ES6+", logo: "/images/skills/js.svg" },
+      { name: "TypeScript", logo: "/images/skills/typescript.png" },
+      { name: "React.js", logo: "/images/skills/react.svg" },
       { name: "UI/UX", logo: "/images/skills/uiux.png" },
     ],
   },
   {
     category: "Cloud & DevOps (Azure & AWS)",
     technologies: [
-      { name: "Azure App Services", logo: "/images/skills/azure.png" },
-      { name: "AWS Lambda", logo: "/images/skills/aws.svg" },
+      { name: "Azure", logo: "/images/skills/azure.png" },
+      { name: "AWS", logo: "/images/skills/aws.png" },
       { name: "Docker", logo: "/images/skills/docker.png" },
       { name: "Kubernetes", logo: "/images/skills/kubernetes.png" },
       { name: "CI/CD", logo: "/images/skills/cicd.png" },
@@ -106,8 +104,6 @@ const skills = [
       { name: "MongoDB", logo: "/images/skills/mongodb.png" },
       { name: "MySQL", logo: "/images/skills/sql.png" },
       { name: "Redis", logo: "/images/skills/redis.png" },
-      { name: "API Security", logo: "/images/skills/security.png" },
-      { name: "Caching", logo: "/images/skills/caching.png" },
     ],
   },
 ];

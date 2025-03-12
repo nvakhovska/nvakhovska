@@ -7,12 +7,6 @@ import "./experienceContainer.css";
 const ExperienceContainer = ({ experience }) => {
   return (
     <div className="experience">
-      <img
-        src={import.meta.env.BASE_URL + experience.logo}
-        alt={experience.logoAlt}
-        className="experience__logo"
-      />
-
       <h3>{experience.name}</h3>
 
       <p className="experience__description">{experience.description}</p>
