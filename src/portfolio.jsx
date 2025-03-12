@@ -42,7 +42,7 @@ const workExperience = [
       "During my career break, I actively expanded my expertise in Full-Stack Development, focusing on modern web technologies, cloud computing, and DevOps practices.",
     description2:
       "I built real-world projects to apply my knowledge in React.js, Next.js, Node.js, API development, and cloud deployments (Azure & AWS). I also enhanced my skills in CI/CD, Docker, and backend security best practices.",
-    projectLink: "https://github.com/nvakhovska",
+    projectLink: "https://github.com/nvakhovska"
     logo: "/images/experience/self-learning.png",
     logoAlt: "Self-Learning Logo",
   },
@@ -53,7 +53,7 @@ const workExperience = [
     description2:
       "Key contributions include designing scalable RESTful APIs, implementing CI/CD pipelines, optimizing database performance, and leading the transition of projects to new development teams. Technologies used: .NET, Node.js, React.js, PostgreSQL, Azure, AWS, Docker, and Kubernetes.",
     companyLink: "https://www.trinetix.com/",
-    logo: "/images/experience/trinetix.png",
+    logo: "/images/experience/trinetix.jpg",
     logoAlt: "Trinetix Logo",
   },
 ];
@@ -121,16 +121,13 @@ const skills = [
   },
   {
     name: "CI/CD (GitHub Actions, Azure DevOps)",
-    logo: "/images/skills/cicd.svg",
+    logo: "/images/skills/cicd.png",
   },
   {
     name: "Git",
     logo: "/images/skills/git.svg",
   },
-  {
-    name: "GitHub",
-    logo: "/images/skills/github.svg",
-  },
+
   {
     name: "Jest",
     logo: "/images/skills/jest.svg",
@@ -141,7 +138,7 @@ const skills = [
   },
   {
     name: "Azure",
-    logo: "/images/skills/azure.svg",
+    logo: "/images/skills/azure.png",
   },
   {
     name: "AWS",
@@ -149,11 +146,7 @@ const skills = [
   },
   {
     name: "Python",
-    logo: "/images/skills/python.svg",
-  },
-  {
-    name: "VS Code",
-    logo: "/images/skills/vscode.svg",
+    logo: "/images/skills/python.png",
   },
 ];
 
