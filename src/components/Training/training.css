@@ -1,0 +1,13 @@
+.training__grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    gap: 2em;
+}
+
+.training__more {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1.5rem;
+}
