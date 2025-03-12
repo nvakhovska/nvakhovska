@@ -1,31 +1,32 @@
-.skills__list {
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5em;
-}
-
-/* Grouped Skills */
 .skills__category {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px; /* Wider container */
   background: #222;
   padding: 15px;
   border-radius: 10px;
-  text-align: center;
+  text-align: left; /* Align title to the left */
+  margin-bottom: 20px;
 }
 
 .skills__category-title {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #fbbc04; /* Accent color */
+  color: #fbbc04;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-/* Each Skill Item */
+.skills__list {
+  display: flex; /* Change from column to row */
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align items in a row */
+  align-items: center;
+  gap: 1.5em;
+  padding-left: 20px;
+}
+
 .skills__list-item {
   display: flex;
   align-items: center;
@@ -39,19 +40,16 @@
     background 0.2s;
 }
 
-/* Hover Effect */
 .skills__list-item:hover {
   background: #444;
   transform: scale(1.05);
 }
 
-/* Logo Size */
 .skills__item-img {
   width: 30px;
   height: 30px;
 }
 
-/* Text Styling */
 .skills__item-text {
   font-size: 1rem;
   font-weight: 500;

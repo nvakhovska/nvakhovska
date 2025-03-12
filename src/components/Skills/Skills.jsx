@@ -11,7 +11,7 @@ const Skills = () => {
       <div className="skills__list">
         {skills.map((skillCategory, index) => (
           <div key={index} className="skills__category">
-            <h3 className="skills__category-title">🔹 {skillCategory.category}</h3>
+            <h3 className="skills__category-title"> {skillCategory.category}</h3>
             <ul className="skills__category-list">
               {skillCategory.technologies.map((skill, idx) => (
                 <SkillsContainer key={idx} skill={skill} />
