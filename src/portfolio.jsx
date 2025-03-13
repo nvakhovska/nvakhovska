@@ -1,5 +1,5 @@
 const header = {
-  homepage: "https://nvakhovska.github.io/nvakhovska",
+  homepage: "https://nvakhovska.vercel.app/",
   logo: "/images/website-logo-transparent-removebg-preview.png",
 };
 
@@ -46,11 +46,11 @@ const workExperience = [
     logoAlt: "Self-Learning Logo",
   },
   {
-    name: "Full-Stack Developer | Trinetix Inc (Contractor for Big 4 Firm)",
+    name: "Software Engineer | Trinetix Inc (Contractor for Big 4 Firm)",
     description:
-      "As a Full-Stack Developer, I contributed to the development and maintenance of enterprise automation solutions. I worked across the stack, building backend APIs, integrating cloud services, and optimizing frontend applications.",
+      "As a Software Engineer, I contributed to the development and maintenance of enterprise automation solutions. I worked across the stack, building backend APIs, and integrating cloud services.",
     description2:
-      "Key contributions include designing scalable RESTful APIs, implementing CI/CD pipelines, optimizing database performance, and leading the transition of projects to new development teams. Technologies used: .NET, Node.js, React.js, PostgreSQL, Azure, AWS, Docker, and Kubernetes.",
+      "Key contributions include designing scalable RESTful APIs, implementing CI/CD pipelines, optimizing database performance, and leading the transition of projects to new development teams. Technologies used: .NET, Node.js, Typescript, Azure, AWS.",
     companyLink: "https://www.trinetix.com/",
     logoAlt: "Trinetix Logo",
   },
