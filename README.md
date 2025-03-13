@@ -7,7 +7,7 @@ Full-Stack / Backend Developer
 Full-Stack Developer with experience in React.js, TypeScript, Node.js, and cloud-based deployments (Azure & AWS). Skilled in API development, backend architecture, CI/CD automation, and DevOps practices. Seeking Full-Stack or Backend Developer roles to contribute to innovative teams.
 
 * 🌍  I'm based in Canada
-* 🖥️  See my portfolio at [test](http://test.test)
+* 🖥️  See my portfolio at [https://nvakhovska.vercel.app/](https://nvakhovska.vercel.app/)
 * ✉️  You can contact me at [nataliia.vakhovska@gmail.com](mailto:nataliia.vakhovska@gmail.com)
 
 ### Skills
