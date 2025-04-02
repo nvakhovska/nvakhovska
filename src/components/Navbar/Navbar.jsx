@@ -49,6 +49,16 @@ const Navbar = () => {
             Contact
           </a>
         </li>
+        <li className="nav__list-item">
+          <a
+            href="https://nvakhovska.github.io/bytes-and-thoughts/"
+            className="link link--nav"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Blog
+          </a>
+        </li>
       </ul>
 
       <button

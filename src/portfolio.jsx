@@ -22,7 +22,7 @@ const projects = [
       "PeTODO is a task management web application built using React, Node.js, and MongoDB. It allows users to create, manage, and organize tasks, with features like assigning tasks to specific users, sorting tasks by priority and due date, and tracking task statuses. The app includes JWT authentication for secure login and signup, and uses custom API endpoints for task operations. It supports dynamic task creation with optional fields such as due date, tags, and user assignments. Deployed on a production server.",
     stack: ["JavaScript", "React.js", "Node.js", "MongoDB", "JWT", "Axios", "Material UI"],
     sourceCode: "https://github.com/nvakhovska/peTODO-web",
-    livePreview: "https://your-production-server.com",
+    livePreview: "https://petodo.vercel.app",
     image: "/images/projects/petodo.png",
   },
   {
